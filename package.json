@@ -1,0 +1,19 @@
+{
+  "name": "ChatProject",
+  "version": "1.0.0",
+  "description": "Global WebSocket Chat Server",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["chat", "websocket", "real-time"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
