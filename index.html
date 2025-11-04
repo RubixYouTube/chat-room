@@ -776,7 +776,7 @@
             if (ws && ws.readyState === WebSocket.OPEN) {
                 ws.send(JSON.stringify({ type: 'ping' }));
             }
-        }, 25000); // Every 25 seconds
+        }, 15000); // Every 15 seconds
     </script>
 </body>
 </html>
